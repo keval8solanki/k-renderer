@@ -6,5 +6,5 @@ exports.shared = {
 	loader: { '.js': 'jsx', '.png': 'file', '.jpg': 'file', '.jpeg': 'file' },
 	external: Object.keys(dependencies),
 	minify: true,
-	sourcemap: false,
+	sourcemap: true,
 }
